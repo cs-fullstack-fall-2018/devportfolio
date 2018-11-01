@@ -1,3 +1,27 @@
-.resume1{
-    transform: rotate(45deg);
+.home{
+    background-color:dimgrey ;
+    background-image: url("/static/wallpaper.jpg");
+    padding-top: 15px;
+    height: 100%;
+}
+
+.intro{
+    vertical-align: text-bottom;
+    margin: 30px;
+    background-color: grey;
+    opacity: 0.8;
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+    filter: alpha(opacity=100);
+}
+
+.intro p{
+    font-weight: bold;
+    color: black;
+}
+
+.intro h3{
+    font-weight: bold;
+    color: black;
 }
