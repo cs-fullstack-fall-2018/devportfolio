@@ -1,0 +1,23 @@
+{% extends "portfolioApp/base.html" %}
+{% load static %}
+
+{% block body %}
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Madisonne Cooper</h2>
+    <p class="w3-opacity"><i>Fullstack Software Developer</i></p>
+    <img width="300" src="{% static 'profile.jpg' %}">
+    <br>
+    <br>
+    <p class="w3-justify">I am going through a 6 month bootcamp at The Code Crew School here in Memphis, TN. I joined this program so that I can intergrate
+        the skills that I learn as a developer with my passion for yoga.
+        In these 6 months, we are learning multiple languages like Java Script and Python. We are learning to be full stack developers using MERN and Django.
+        We are assigned exercises and projects after each lesson. My vision as a developer is to mix my innovative skills with my software skills to create
+        an application that will greatly affect the yoga community and it's influence on other communities as well. This experience is playing a huge role in my pursuit to reach my goals by being the door of opportunity and the start to something great!
+        Contained in this page are some of my best projects and personal work. Feel free to click around and check me out!
+</div>
+<hr>
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="resume">
+    <h2 class="w3-wide">My Resume</h2>
+    <embed src="{% static 'cooperresume.docx.pdf' %}" type="application/pdf" width="100%" height="600px" />
+</div>
+{% endblock %}
